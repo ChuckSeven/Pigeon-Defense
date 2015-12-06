@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>443</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::StyledPanel</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>421</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Erstellt im Rahmen des IP5 Projektes &amp;quot;Taubenabwehr&amp;quot; &lt;/p&gt;&lt;p&gt;im 5. Semester (HS14) im Studiengang Informatik an der FHNW&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Entwickler:&lt;/p&gt;&lt;p&gt;Imanol Schlag&lt;/p&gt;&lt;p&gt;Kyriakos Schwarz&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Betreuer:&lt;/p&gt;&lt;p&gt;Manfred Vogel&lt;/p&gt;&lt;p&gt;Kevin Zogg&lt;/p&gt;&lt;p&gt;Michael Imbach&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Auftraggeber:&lt;/p&gt;&lt;p&gt;Wolfgang Strasser&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

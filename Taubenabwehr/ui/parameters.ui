@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ScrollArea</class>
+ <widget class="QScrollArea" name="ScrollArea">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>352</width>
+    <height>819</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ScrollArea</string>
+  </property>
+  <property name="widgetResizable">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="scrollAreaWidgetContents">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>350</width>
+     <height>817</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>325</width>
+      <height>902</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="fieldGrowthPolicy">
+      <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+     </property>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_showbinary">
+       <property name="text">
+        <string>Show Binary</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QCheckBox" name="checkBox_showbinary">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_showcontours">
+       <property name="text">
+        <string>Show Contours</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QCheckBox" name="checkBox_showcontours">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_resize">
+       <property name="text">
+        <string>Resize</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineEdit_resize"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_framerate">
+       <property name="text">
+        <string>Framerate</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="lineEdit_framerate"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_history">
+       <property name="text">
+        <string>history</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="lineEdit_history"/>
+     </item>
+     <item row="7" column="0">
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_movD">
+       <property name="text">
+        <string>movD</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="lineEdit_movD"/>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_pluspoints">
+       <property name="text">
+        <string>plusPoints</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLineEdit" name="lineEdit_pluspoints"/>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="label_minuspoints">
+       <property name="text">
+        <string>minusPoints</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLineEdit" name="lineEdit_minuspoints"/>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLabel" name="label_pointthresh">
+       <property name="text">
+        <string>visibility Thresh</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLineEdit" name="lineEdit_pointthresh"/>
+     </item>
+     <item row="12" column="0">
+      <widget class="QLabel" name="label_maxpoints">
+       <property name="text">
+        <string>maxPoints</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLineEdit" name="lineEdit_maxpoints"/>
+     </item>
+     <item row="13" column="0">
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="14" column="0">
+      <widget class="QLabel" name="label_mincircularity">
+       <property name="text">
+        <string>minCircularity</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QLineEdit" name="lineEdit_mincircularity"/>
+     </item>
+     <item row="15" column="0">
+      <widget class="QLabel" name="label_maxcircularity">
+       <property name="text">
+        <string>maxCircularity</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="1">
+      <widget class="QLineEdit" name="lineEdit_maxcircularity"/>
+     </item>
+     <item row="16" column="0">
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="18" column="0">
+      <widget class="QLabel" name="label_defsize">
+       <property name="text">
+        <string>Default Area</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="1">
+      <widget class="QLineEdit" name="lineEdit_defsize"/>
+     </item>
+     <item row="19" column="0">
+      <widget class="QLabel" name="label_tolerance">
+       <property name="text">
+        <string>Tolerance (%)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="19" column="1">
+      <widget class="QLineEdit" name="lineEdit_tolerance"/>
+     </item>
+     <item row="20" column="0">
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="21" column="0">
+      <widget class="QLabel" name="label_enablecolor">
+       <property name="text">
+        <string>Enable Color</string>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="1">
+      <widget class="QCheckBox" name="checkBox_enablecolor">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="22" column="0">
+      <widget class="QLabel" name="label_colorrgb">
+       <property name="text">
+        <string>ColorRGB</string>
+       </property>
+      </widget>
+     </item>
+     <item row="22" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLineEdit" name="lineEdit_R"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_G"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_B"/>
+       </item>
+      </layout>
+     </item>
+     <item row="23" column="0">
+      <widget class="QLabel" name="label_tolerancergb">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tolerance&lt;span style=&quot; vertical-align:super;&quot;&gt;(Intencity)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="23" column="1">
+      <widget class="QLineEdit" name="lineEdit_tolerancergb"/>
+     </item>
+     <item row="24" column="0">
+      <spacer name="horizontalSpacer_6">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="25" column="0">
+      <widget class="QLabel" name="label_logpause">
+       <property name="text">
+        <string>Logpause (Sek.)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="25" column="1">
+      <widget class="QLineEdit" name="lineEdit_logpause"/>
+     </item>
+     <item row="26" column="0">
+      <spacer name="horizontalSpacer_7">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="27" column="0">
+      <widget class="QPushButton" name="pushButton_cancel">
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </widget>
+     </item>
+     <item row="27" column="1">
+      <widget class="QPushButton" name="pushButton_save">
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Taubenabwehr
+Path=/home/kyri/Git/taubenabwehr/Taubenabwehr/
+Exec=python /home/kyri/Git/taubenabwehr/Taubenabwehr/MainGUI.py
+Icon=/home/kyri/Git/taubenabwehr/Taubenabwehr/icon/christmas-tree-icon.png
+Type=Application
+Terminal=false
+

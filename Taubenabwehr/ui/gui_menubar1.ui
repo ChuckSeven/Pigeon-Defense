@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ui</class>
+ <widget class="QMainWindow" name="ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>866</width>
+    <height>711</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>661</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>866</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionParameters"/>
+    <addaction name="actionAbout"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuROI">
+    <property name="title">
+     <string>ROI</string>
+    </property>
+    <addaction name="actionBegin_Polygon"/>
+    <addaction name="actionDraw_Polygon"/>
+   </widget>
+   <widget class="QMenu" name="menuSizeAreas">
+    <property name="title">
+     <string>SizeAreas</string>
+    </property>
+    <addaction name="actionBegin_SArea"/>
+    <addaction name="actionEnd_SArea"/>
+    <addaction name="actionDraw_SArea"/>
+    <addaction name="actionExit_SAreas"/>
+   </widget>
+   <widget class="QMenu" name="menuReset">
+    <property name="title">
+     <string>Reset</string>
+    </property>
+    <addaction name="actionReset"/>
+    <addaction name="actionReset_SAreas"/>
+    <addaction name="actionRemove_LaserAreas"/>
+   </widget>
+   <widget class="QMenu" name="menuVideo">
+    <property name="title">
+     <string>Video</string>
+    </property>
+    <addaction name="actionSource"/>
+    <addaction name="actionRestart"/>
+   </widget>
+   <widget class="QMenu" name="menuLaserAreas">
+    <property name="title">
+     <string>LaserAreas</string>
+    </property>
+    <addaction name="actionBegin_Laser"/>
+    <addaction name="actionDraw_LaserArea"/>
+    <addaction name="actionExit_LaserArea"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuROI"/>
+   <addaction name="menuSizeAreas"/>
+   <addaction name="menuLaserAreas"/>
+   <addaction name="menuReset"/>
+   <addaction name="menuVideo"/>
+  </widget>
+  <action name="actionBegin_Polygon">
+   <property name="text">
+    <string>Begin Polygon</string>
+   </property>
+  </action>
+  <action name="actionEnd_Polygon">
+   <property name="text">
+    <string>End Polygon</string>
+   </property>
+  </action>
+  <action name="actionDraw_Polygon">
+   <property name="text">
+    <string>Draw Polygon</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionReset">
+   <property name="text">
+    <string>Remove ROI</string>
+   </property>
+  </action>
+  <action name="actionCamera">
+   <property name="text">
+    <string>Camera</string>
+   </property>
+  </action>
+  <action name="actionLoad_Video_File">
+   <property name="text">
+    <string>Load Video File</string>
+   </property>
+  </action>
+  <action name="actionBegin_SArea">
+   <property name="text">
+    <string>Begin SArea</string>
+   </property>
+  </action>
+  <action name="actionDraw_SArea">
+   <property name="text">
+    <string>View SAreas</string>
+   </property>
+  </action>
+  <action name="actionReset_SAreas">
+   <property name="text">
+    <string>Remove SizeAreas</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionParameters">
+   <property name="text">
+    <string>Parameters</string>
+   </property>
+  </action>
+  <action name="actionEnd_SArea">
+   <property name="text">
+    <string>End SArea</string>
+   </property>
+  </action>
+  <action name="actionExit_SAreas">
+   <property name="text">
+    <string>Exit SAreas</string>
+   </property>
+  </action>
+  <action name="actionSource">
+   <property name="text">
+    <string>Source</string>
+   </property>
+  </action>
+  <action name="actionBegin_Laser">
+   <property name="text">
+    <string>Begin LaserArea</string>
+   </property>
+  </action>
+  <action name="actionDraw_LaserArea">
+   <property name="text">
+    <string>Draw LaserArea</string>
+   </property>
+  </action>
+  <action name="actionExit_LaserArea">
+   <property name="text">
+    <string>Exit LaserArea</string>
+   </property>
+  </action>
+  <action name="actionRemove_LaserAreas">
+   <property name="text">
+    <string>Remove LaserAreas</string>
+   </property>
+  </action>
+  <action name="actionRestart">
+   <property name="text">
+    <string>Restart</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
